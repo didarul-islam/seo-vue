@@ -208,15 +208,13 @@
           <div class="col-12 col-lg-auto text-center text-lg-left">
             Copyrights &copy; 2020 All Rights Reserved by Canvas Inc.<br />
             <div class="copyright-links">
-              <a href="#">Terms of Use</a> / <a href="#">Privacy Policy</a>
+              <a href="#">Terms of Use</a> / <router-link to="/privacy">Privacy Policy</router-link>
             </div>
           </div>
 
           <div class="col-12 col-lg-auto text-center text-lg-right">
             <div class="copyrights-menu copyright-links clearfix">
-              <a href="#">Home</a>/<a href="#">About Us</a>/<a href="#">Team</a
-              >/<a href="#">Clients</a>/<a href="#">FAQs</a>/<a href="#"
-                >Contact</a
+             <router-link to="/">Home</router-link>/<router-link to="/what-we-do">What We Do</router-link>/<router-link to="/seo">SEO</router-link>/<router-link to="/faqs">FAQs</router-link>/<router-link to="/contact">Contact</router-link
               >
             </div>
           </div>
