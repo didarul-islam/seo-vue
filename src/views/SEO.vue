@@ -3,7 +3,7 @@
     <!-- Page Title
 		============================================= -->
 
-    	<Hero/>
+    <Hero :pageTitle="this.pageTitle" :bandcamp="this.bandcamp"/>
     <!-- #page-title end -->
 
     <!-- Content
@@ -455,5 +455,12 @@ export default {
     Form,
     
   },
+  data(){
+    return {
+      pageTitle:"SEO",
+      bandcamp:"SEO",
+      
+      }
+  }
 };
 </script>

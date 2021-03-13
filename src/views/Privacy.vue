@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Hero />
+    <Hero :pageTitle="this.pageTitle" :bandcamp="this.bandcamp"/>
     <section id="content">
       <div class="content-wrap">
         <div class="container clearfix">
@@ -101,6 +101,13 @@ export default {
   components: {
     Hero,
   },
+  data(){
+    return {
+      pageTitle:"Privacy",
+      bandcamp:"Privacy",
+      
+      }
+  }
 };
 </script>
 

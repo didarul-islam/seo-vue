@@ -4,7 +4,7 @@
 		============================================= -->
 
 
-			<Hero/>
+		<Hero :pageTitle="this.pageTitle" :bandcamp="this.bandcamp"/>
 		<!-- #page-title end -->
 
 		<!-- Content
@@ -262,5 +262,12 @@ export default {
 	Form,
     
   },
+   data(){
+    return {
+      pageTitle:"FAQs",
+      bandcamp:"FAQs",
+      
+      }
+  }
 };
 </script>

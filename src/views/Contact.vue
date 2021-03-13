@@ -3,7 +3,7 @@
     <!-- Page Title
 		============================================= -->
 
-    <Hero />
+    <Hero :pageTitle="this.pageTitle" :bandcamp="this.bandcamp"/>
     <!-- Content
 		============================================= -->
     <section id="content">
@@ -106,5 +106,13 @@ export default {
     Hero,
 	Form,
   },
+  data(){
+    return {
+      pageTitle:"Contact",
+      bandcamp:"Contact",
+      
+      }
+  }
+
 };
 </script>

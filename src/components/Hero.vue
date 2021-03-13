@@ -17,10 +17,10 @@
       <div class="badge badge-pill border border-light text-light">
         Get In Touch
       </div>
-      <h1>Contact Us</h1>
+      <h1>{{pageTitle}}</h1>
       <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="#">Home</a></li>
-        <li class="breadcrumb-item active" aria-current="page">Contact</li>
+        <li class="breadcrumb-item"><router-link to="/">Home</router-link></li>
+        <li class="breadcrumb-item active" aria-current="page">{{bandcamp}}</li>
       </ol>
     </div>
   </section>
@@ -28,6 +28,10 @@
 <script>
 export default {
   name: "Hero",
+  props:[
+    "bandcamp", 
+    "pageTitle"
+  ]
  
 };
 </script>
