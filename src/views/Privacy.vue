@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Hero :pageTitle="this.pageTitle" :bandcamp="this.bandcamp"/>
+    <Hero :pageTitle="this.pageTitle" :bandcamp="this.bandcamp" />
     <section id="content">
       <div class="content-wrap">
         <div class="container clearfix">
@@ -14,7 +14,6 @@
                 <h2>Privacy Policy Page</h2>
               </div>
               <!-- .entry-title end -->
-
 
               <!-- Entry Content
 							============================================= -->
@@ -64,8 +63,6 @@
                   velit aliquet.
                 </p>
 
-               
-
                 <p>
                   Duis mollis, est non commodo luctus, nisi erat porttitor
                   ligula, eget lacinia odio sem nec elit. Cras mattis
@@ -101,18 +98,12 @@ export default {
   components: {
     Hero,
   },
-  data(){
+  data() {
     return {
-      pageTitle:"Privacy",
-      bandcamp:"Privacy",
-      
-      }
-  }
+      pageTitle: "Privacy",
+      bandcamp: "Privacy",
+    };
+  },
 };
 </script>
 
-<style scoped>
-.content-wrap {
-  padding: 0;
-}
-</style>
