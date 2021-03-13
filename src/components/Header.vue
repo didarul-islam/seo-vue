@@ -6,19 +6,18 @@
           <!-- Logo
 						============================================= -->
           <div id="logo">
-            <router-link to="/"><a
-              href="/"
+           <router-link 
+             to="/"
               class="standard-logo"
               data-dark-logo="images/logo-dark.png"
               ><img src="images/logo.png" alt="Canvas Logo"
-            /></a></router-link>
-            <router-link to="/">
-            <a
-              href="/"
+            /></router-link >
+            <router-link 
+              to="/"
               class="retina-logo"
               data-dark-logo="images/logo-dark@2x.png"
               ><img src="images/logo@2x.png" alt="Canvas Logo"
-            /></a></router-link>
+            /></router-link >
           </div>
           <!-- #logo end -->
 
@@ -56,11 +55,11 @@
           <nav class="primary-menu with-arrows">
             <ul class="menu-container">
               <li class="menu-item current">
-                <a class="menu-link" href="demo-seo.html"><div> <router-link to="/">Home</router-link> </div></a>
+                <router-link to="/"  class="menu-link"><div>Home </div></router-link >
               </li>
               <li class="menu-item">
-                <a class="menu-link" href="demo-seo-about.html"
-                  ><div><router-link to="/what-we-do">What We Do</router-link></div></a
+                <router-link  to="/what-we-do"  class="menu-link" href="demo-seo-about.html"
+                  ><div>What We Do</div></router-link 
                 >
               </li>
               <li class="menu-item mega-menu">
@@ -68,8 +67,8 @@
                 <div class="mega-menu-content mega-menu-style-2 px-0">
                   <div class="container">
                     <div class="row">
-                      <a
-                        href="demo-seo-optimizations.html"
+                      <router-link
+                       to="/seo"
                         class="mega-menu-column sub-menu-container col-lg-4 border-bottom h-bg-light py-4"
                       >
                         <div class="feature-box">
@@ -82,16 +81,16 @@
                             />
                           </div>
                           <div class="fbox-content">
-                            <h3 class="nott ls0"><router-link to="/seo">SEO Optimization</router-link></h3>
+                            <h3 class="nott ls0">SEO Optimization</h3>
                             <p>
                               Lorem ipsum dolor sit amet, consectetur
                               adipisicing elit. Commodi, ipsa!
                             </p>
                           </div>
                         </div>
-                      </a>
+                      </router-link>
                       <a
-                        href="demo-seo-social.html"
+                       
                         class="mega-menu-column sub-menu-container col-lg-4 border-bottom h-bg-light py-4"
                       >
                         <div class="feature-box">
@@ -112,7 +111,7 @@
                         </div>
                       </a>
                       <a
-                        href="demo-seo-adwords.html"
+                       
                         class="mega-menu-column sub-menu-container col-lg-4 border-bottom h-bg-light py-4"
                       >
                         <div class="feature-box">
@@ -133,7 +132,7 @@
                         </div>
                       </a>
                       <a
-                        href="demo-seo-experience.html"
+                       
                         class="mega-menu-column sub-menu-container col-lg-4 border-bottom h-bg-light py-4"
                       >
                         <div class="feature-box">
@@ -154,7 +153,7 @@
                         </div>
                       </a>
                       <a
-                        href="demo-seo-analysis.html"
+                        
                         class="mega-menu-column sub-menu-container col-lg-4 border-bottom h-bg-light py-4"
                       >
                         <div class="feature-box">
@@ -175,7 +174,7 @@
                         </div>
                       </a>
                       <a
-                        href="demo-seo-content-marketing.html"
+                      
                         class="mega-menu-column sub-menu-container col-lg-4 border-bottom h-bg-light py-4"
                       >
                         <div class="feature-box">
@@ -199,7 +198,7 @@
                         class="mega-menu-column sub-menu-container col-12 p-0"
                       >
                         <a
-                          href="demo-seo-about.html"
+                         
                           class="button button-rounded button-large nott ls0 btn-block text-center m-0 rounded-0 py-3 button-light"
                           >View All <i class="icon-line-arrow-right"></i
                         ></a>
@@ -208,14 +207,14 @@
                   </div>
                 </div>
               </li>
-              <li class="menu-item">
-                <a class="menu-link" href="demo-seo-faqs.html"
-                  ><div><router-link to="/faqs">FAQs</router-link></div></a
+              <li class="menu-item" >
+                <router-link to="/faqs" class="menu-link" 
+                  ><div>FAQs</div></router-link
                 >
               </li>
               <li class="menu-item">
-                <a class="menu-link" href="demo-seo-contact.html"
-                  ><div><router-link to="/contact">Contact</router-link></div></a
+                <router-link to="/contact" class="menu-link" 
+                  ><div>Contact</div></router-link
                 >
               </li>
             </ul>

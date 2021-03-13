@@ -8,13 +8,13 @@
           <div class="top-links">
             <ul class="top-links-container">
               <li class="top-links-item">
-                <a href="demo-seo.html">Home</a>
+                <router-link to="/">Home</router-link>
               </li>
               <li class="top-links-item">
-                <a href="demo-seo-faqs.html">FAQs</a>
+                <router-link to="/faqs">FAQs</router-link>
               </li>
               <li class="top-links-item">
-                <a href="demo-seo-contact.html">Contact</a>
+                <router-link to="/contact">Contact</router-link>
               </li>
               <li class="top-links-item">
                 <a href="#"
